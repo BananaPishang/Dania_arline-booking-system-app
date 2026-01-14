@@ -1,0 +1,39 @@
+Start
+  |
+  v
+Initialize GUI and Seat Map
+  |
+  v
+Load Bookings from booking.txt
+  |
+  v
+Display Passenger Name Input
+Display Seat Buttons
+Display Booking List
+Display Cancel Button
+  |
+  v
+User Action?
+  |---------------------------|
+  |                           |
+  v                           v
+Seat Button Clicked?        Cancel Button Clicked?
+  |                           |
+  v                           v
+Is Name Entered?            Is Booking Selected?
+  | Yes / No                  | Yes / No
+  v                           v
+Seat Available?             Cancel Booking
+  | Yes / No                  |
+  v                           v
+Book Seat & Update GUI       Update GUI & File
+Save Booking to File
+  |
+  v
+Display Success Message
+  |
+  v
+Return to User Action
+  |
+  v
+End (when app closes)

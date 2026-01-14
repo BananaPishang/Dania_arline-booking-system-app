@@ -1,0 +1,43 @@
+BEGIN
+
+Create main window
+Initialize empty booking list
+
+Display passenger name input
+Display seat buttons
+Display booking list
+Display cancel button
+
+IF booking file exists
+    Load bookings from file
+    Mark booked seats as unavailable
+END IF
+
+WHILE application is running
+    WAIT for user actions
+
+    IF seat button is clicked
+        IF passenger name is empty
+            Show warning message
+        ELSE IF seat already booked
+            Show error message
+        ELSE
+            Save booking
+            Update seat status
+            Display booking
+            Save data to file .txt
+        END IF
+    END IF
+
+    IF cancel button is clicked
+        IF no booking selected
+            Show warning message
+        ELSE
+            Remove booking
+            Update seat status
+            Update file .txt
+        END IF
+    END IF
+END WHILE
+
+END

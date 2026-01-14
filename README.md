@@ -1,4 +1,4 @@
-# Dania_arline-booking-system-app
+# Dania_airline-booking-system-app
 Final project, basic programming for designer
 
 # Github profile link
